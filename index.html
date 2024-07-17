@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    >
+    <title>FEM Interactive Rating Component</title>
+    <link
+      rel="shortcut icon" href="images/favicon-32x32.png"
+      type="image/x-icon"
+    >
+    <link rel="stylesheet" href="public/style.css">
+    <script defer src="public/main.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <article class="component">
+        <section class="how-did-we-do">
+          <img
+            class="star" src="images/icon-star.svg" alt="Star icon"
+          >
+          <div class="text">
+            <h1>How did we do?</h1>
+            <p>
+              Please let us know how we did with your support request.
+              All feedback is appreciated to help us improve our
+              offering!
+            </p>
+          </div>
+          <div class="buttons">
+            <input type="button" class="btn-rating" value="1"></button>
+            <input type="button" class="btn-rating" value="2"></button>
+            <input type="button" class="btn-rating" value="3"></button>
+            <input type="button" class="btn-rating" value="4"></button>
+            <input type="button" class="btn-rating" value="5"></button>
+          </div>
+          <button class="btn-submit">Submit</button>
+        </section>
+        <section class="thank-you hide">
+          <img
+            class="illustration-ty"
+            src="images/illustration-thank-you.svg"
+            alt="Thank you"
+          >
+          <p class="selected">
+            You selected
+            <span id="rating-span"></span>
+            out of 5
+          </p>
+          <div class="text">
+            <h2>Thank you!</h2>
+            <p class="appreciate">
+              We appreciate you taking the time to give a rating. If
+              you ever need more support, don't hesitate to get in
+              touch!
+            </p>
+          </div>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
